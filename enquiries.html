@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC - Enquiries</title>
+</head>
+<body>
+
+    <header>
+        <img src="images/FRIED CHICKEN (1).png" alt="KFC Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="promotions.html">Promotions</a>
+            <a href="contactus.html">Contact</a>
+            <a href="location.html">Location</a>
+            <a href="enquiries.html">Enquiries</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Customer Enquiry Form</h1>
+        <p>Please complete the form below and we will get back to you as soon as possible.</p>
+
+        <form>
+            <fieldset>
+                <legend>Your Personal Details</legend>
+
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="idnumber">ID Number:</label><br>
+                <input type="text" id="idnumber" name="idnumber" placeholder="For verification purposes"><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Contact Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Enquiry Details</legend>
+
+                <label for="enquirytype">Type of Enquiry:</label><br>
+                <select id="enquirytype" name="enquirytype">
+                    <option>--- Select Option ---</option>
+                    <option>Compliment / Feedback</option>
+                    <option>Complaint</option>
+                    <option>Store Experience</option>
+                    <option>Product Query</option>
+                    <option>Delivery / App Issue</option>
+                    <option>Job Application / Careers</option>
+                    <option>Marketing / Sponsorship</option>
+                    <option>Other</option>
+                </select><br><br>
+
+                <label for="store">Which Store Did You Visit?</label><br>
+                <select id="store" name="store">
+                    <option>--- Select Store ---</option>
+                    <option>Sandton City</option>
+                    <option>Menlyn Park</option>
+                    <option>Canal Walk</option>
+                    <option>Gateway Theatre</option>
+                    <option>Other / Not Applicable</option>
+                </select><br><br>
+
+                <label for="date">Date of Visit / Interaction:</label><br>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="message">Please tell us more about your enquiry:</label><br>
+                <textarea id="message" name="message" rows="8" cols="50" placeholder="Please provide as much detail as possible..."></textarea><br><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Privacy Consent</legend>
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I confirm that the information provided is true and I allow KFC to contact me regarding this enquiry.</label>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Submit Enquiry</button>
+            <button type="reset">Clear Form</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 KFC South Africa. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
