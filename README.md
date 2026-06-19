@@ -22,15 +22,15 @@ CrispyHub is a modern, responsive multi-page web application built for a fast-fo
 ## 📂 Project Structure
 
 ```text
-├── css_assets/
-│   └── style.css            # Responsive layout configurations & product card styling
-├── images/                  # Local food presentation assets and menu graphics
-├── index.html               # Restaurant Landing Page
-├── menu.html                # Interactive Dynamic Menu & Gallery
-├── contactus.html           # Communication details and Contact Validation Form
-├── location.html            # Business operational addresses
-├── enquiries.html           # Admin inquiry storage tracking
-├── promotions.html          # Active marketing combos and discount specials
-├── myjavascript.js          # Core search filters and item rendering arrays
-├── README.md                # Project documentation overview
-└── CHANGELOG.md             # Project development history and bug logs
+css_assets/
+ └── style.css            # Responsive layout configurations & product card styling
+ images/                  # Local food presentation assets and menu graphics
+ index.html               # Restaurant Landing Page
+ menu.html                # Interactive Dynamic Menu & Gallery
+ contactus.html           # Communication details and Contact Validation Form
+ location.html            # Business operational addresses
+ enquiries.html           # Admin inquiry storage tracking
+ promotions.html          # Active marketing combos and discount specials
+ myjavascript.js          # Core search filters and item rendering arrays
+ README.md                # Project documentation overview
+ CHANGELOG.md             # Project development history and bug logs
