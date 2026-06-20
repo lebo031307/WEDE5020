@@ -559,3 +559,23 @@ nav ul li a:hover {
     height: 100%;
     fill: currentColor;
   }
+  /* Navigation Menu Spacing Fix */
+nav {
+    margin: 15px 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px; /* ← This adds space left & right of each link */
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #b80000; /* your brand red */
+  }
+  
+  nav a:hover {
+    color: #222;
+    text-decoration: underline;
+  }
