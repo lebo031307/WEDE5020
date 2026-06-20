@@ -45,6 +45,7 @@ WEDE5020/
  JS/
     myjavascripts.js    # All scripts, validation, map, search
  images/                 # All site images
+ private                 # All proposals 1 and 2 
  robots.txt              # SEO: Search engine instructions
  sitemap.xml             # SEO: Site structure for search engines
  README.md               # Project documentation
