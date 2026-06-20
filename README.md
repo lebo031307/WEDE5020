@@ -3,17 +3,8 @@ Web Development Project
 ## Project Title
 Crispy Hub
 # 🐔 Crispy Hub Website
-*Module:* WEDE5020 – Web Development: Introduction
-*Student:* Lebo | Student Number: st10513869
-*GitHub Repository:* https://github.com/lebo031307/WEDE5020
-*Deployment:* https://lebo031307.github.io/WEDE5020/
 
----
-
-## 📋 Project Overview
-Crispy Hub is a fully responsive multi‑page website built for a South African fast‑food restaurant. It meets all requirements for Part 2 and Part 3 of the WEDE5020 assessment, including interactivity, SEO, forms, and proper documentation.
-
----
+Crispy Hub is a modern, responsive multi-page applicationbuilt for a fast-food resturant specializing in delicious fried chicken, burger meals, combo boxes, drinks and desserts. This projectshowcases structured semantic HTML, a robust layout design using CSS Flexbox, interactive components powered by JavaScript, and library optimization via jQuery.
 
 ## ✨ Key Features
 ✅ *Responsive Design*: Works on mobile, tablet, and desktop using CSS Flexbox
@@ -29,7 +20,6 @@ Crispy Hub is a fully responsive multi‑page website built for a South African 
   - Alt text for all images
 ✅ *Clean, Valid Code*: Semantic HTML5, modular CSS, and organised JavaScript
 
----
 
 ## 🛠️ Built With
 - *HTML5*: Semantic structure, forms, and accessibility
