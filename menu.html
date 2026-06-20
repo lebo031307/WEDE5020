@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta setup for character set and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page Title -->
+    <title>Crispy Hub - Our Menu</title>
+    <meta name="description" content="View the complete menu at Crispy Hub: original recipe chicken, zinger burgers, sides, drinks, desserts and combo meals for every appetite.">
+    <meta name="keywords" content="Crispy Hub menu, chicken meals, burgers, chips, soft drinks, milkshakes, family combos, fast food menu South Africa">
+    <!-- Reference: W3Schools (2026) - HTML Meta Tags & SEO Best Practices -->
+
+    <!-- Reference: jQuery Foundation (2026) - jQuery v3.7.1 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Reference: Fonticons Inc. (2026) - Font Awesome v6.5.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="css_assets/style.css">
+
+    <!-- ✅ Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- ✅ Font Awesome for Cart Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Lightbox for image gallery -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+ <!-- References -->
+<!-- References:
+Agafonkin, V. & Leaflet Contributors. (2026). Leaflet (Version 1.9.4) [Interactive map library]. Available from: https://leafletjs.com/
+Fonticons Inc. (2026). Font Awesome (Version 6.5.0) [Icon toolkit]. Available from: https://fontawesome.com/
+Google. (2026). Poppins Web Font. Available from: https://fonts.google.com/specimen/Poppins
+jQuery Foundation. (2026). jQuery (Version 3.7.1) [JavaScript library]. Available from: https://code.jquery.com/
+Lokesh, D. (2026). Lightbox2 (Version 2.11.4) [Image gallery library]. Available from: https://lokeshdhakar.com/projects/lightbox2/
+W3Schools. (2026). HTML, CSS, JavaScript and SEO Best Practices. Available from: https://www.w3schools.com/
+-->
+</head>
+<body>
+
+    <!-- ==============================================
+         HEADER SECTION
+         ============================================== -->
+    <header>
+        <h1>Our Delicious Menu</h1>
+        <p>Explore our meals made with our secret herbs and spices</p>
+    </header>
+
+    <!-- Add inside <main> -->
+<input type="text" id="menu-search-field" placeholder="Search our menu...">
+<div id="dynamic-menu-container" class="container-horizontal"></div>
+
+    <!-- ==============================================
+         NAVIGATION BAR
+         ============================================== -->
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="promotions.html">Promotions</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="location.html">Location</a>
+            <a href="enquiries.html">Enquiries</a>
+    </nav>
+
+    <!-- ==============================================
+         MAIN CONTENT AREA
+         ============================================== -->
+    <main>
+
+        <!-- ==============================================
+             SECTION: MEAL BOXES
+             ============================================== -->
+        <section>
+            <h2>Meal Boxes & Combos</h2>
+
+            <!-- Menu Item 1 -->
+            <div class="menu-item">
+                <a href="images/original-recipe-meal.jpg" data-lightbox="menu-gallery" data-title="Original Recipe Meal - R69.90">
+                    <img src="images/original-recipe-meal.jpg" alt="Original Recipe Meal" class="lightbox-trigger" width="300">
+                  </a>
+                <h3>Original Recipe Meal</h3>
+                <p>3 pieces of Original Recipe chicken, regular chips, and a drink.</p>
+                <p><strong>Price: R69.90</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="menu-item">
+                <a href="images/zinger-burger-meal.jpg" data-lightbox="menu-gallery" data-title="Zinger Crunch Burger Box - R59.90">
+                    <img src="images/zinger-burger-meal.jpg" alt="Zinger Crunch Burger Box" class="lightbox-trigger" width="300">
+                  </a>
+                <h3>Zinger Crunch Burger Box</h3>
+                <p>1 Zinger Burger, 2 Hot Wings, small chips, and a drink.</p>
+                <p><strong>Price: R59.90</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             SECTION: CHICKEN BOXES
+             ============================================== -->
+        <section>
+            <h2>Chicken Boxes</h2>
+
+            <!-- Menu Item 3 -->
+            <div class="menu-item">
+                <a href="images/6pc-chicken-share-box.jpg" data-lightbox="menu-gallery" data-title="6 Piece Chicken Share Box - R109.00">
+                    <img src="images/6pc-chicken-share-box.jpg" alt="6 Piece Chicken Share Box" class="lightbox-trigger" width="300">
+                  </a>
+                <h3>6 Piece Chicken Share Box</h3>
+                <p>6 pieces of our famous Original Recipe or Hot & Spicy chicken.</p>
+                <p><strong>Price: R109.00</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+
+            <!-- Menu Item 4 -->
+            <div class="menu-item">
+                <a href="images/10pc-familt-treat.jpg" data-lightbox="menu-gallery" data-title="10 Piece Family Treat - R175.00">
+                    <img src="images/10pc-familt-treat.jpg" alt="10 Piece Family Treat" class="lightbox-trigger" width="300">
+                  </a>
+                <h3>10 Piece Family Treat</h3>
+                <p>10 pieces of chicken perfect for the whole family to share.</p>
+                <p><strong>Price: R175.00</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             SECTION: BURGERS
+             ============================================== -->
+        <section>
+            <h2>Burgers</h2>
+
+            <!-- Menu Item 5 -->
+            <div class="menu-item">
+                <a href="images/big-boss-burger.jpg" data-lightbox="menu-gallery" data-title="Big Boss Burger - R65.00">
+                    <img src="images/big-boss-burger.jpg" alt="Big Boss Burger" class="lightbox-trigger" width="300">
+                  </a>
+                <h3>Big Boss Burger</h3>
+                <p>Double crispy fillet, cheese, bacon, and BBQ sauce.</p>
+                <p><strong>Price: R65.00</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+
+            <!-- Menu Item 6 -->
+            <div class="menu-item">
+                <a href="images/classic-zinger-burger.jpg" data-lightbox="menu-gallery" data-title="Classic Zinger Burger - R42.00">
+                    <img src="images/classic-zinger-burger.jpg" alt="Classic Zinger Burger" class="lightbox-trigger" width="300">
+                  </a>
+                <h3>Classic Zinger Burger</h3>
+                <p>Crispy fillet, lettuce, and signature sauce.</p>
+                <p><strong>Price: R42.00</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             SECTION: DRINKS
+             ============================================== -->
+        <section>
+            <h2>Drinks</h2>
+
+            <!-- Drink Item 1 -->
+            <div class="menu-item">
+                <a href="images/bottled-water.jpg" data-lightbox="menu-gallery" data-title="Bottled Still Water - R12.00">
+                    <img src="images/bottled-water.jpg" alt="Bottled Still Water" class="lightbox-trigger" width="200">
+                  </a>
+                <h3>Bottled Still Water</h3>
+                <p>500ml refreshing cold bottled water.</p>
+                <p><strong>Price: R12.00</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+
+            <!-- Drink Item 2 -->
+            <div class="menu-item">
+                <a href="images/cold-drinks.jpg" data-lightbox="menu-gallery" data-title="Cold Drink - R15.00">
+                    <img src="images/cold-drinks.jpg" alt="Cold Drink" class="lightbox-trigger" width="200">
+                  </a>
+                <h3>Soft Drink</h3>
+                <p>Regular 300ml cold drink (Coke, Fanta, Sprite).</p>
+                <p><strong>Price: R15.00</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             SECTION: DESSERTS
+             ============================================== -->
+        <section>
+            <h2>Desserts</h2>
+
+            <div class="menu-item">
+                <a href="images/assorted-ice-cream.jpg" data-lightbox="menu-gallery" data-title="Assorted Ice Cream - R18.00 per scoop">
+                    <img src="images/assorted-ice-cream.jpg" alt="Assorted Ice Cream" class="lightbox-trigger" width="250">
+                  </a>
+                <h3>Assorted Ice Cream</h3>
+                <p>Choose from Vanilla, Chocolate, Strawberry and many more flavours.</p>
+                <p><strong>Price: R18.00 per scoop</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <a href="images/variety-milkshakes.jpg" data-lightbox="menu-gallery" data-title="Variety Milkshakes - R29.90">
+                    <img src="images/variety-milkshakes.jpg" alt="Variety Milkshakes" class="lightbox-trigger" width="250">
+                  </a>
+                <h3>Variety Milkshakes</h3>
+                <p>Thick & creamy shakes available in Chocolate, Strawberry, Banana and Vanilla.</p>
+                <p><strong>Price: R29.90</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             SECTION: SIDES & SOUPS
+             ============================================== -->
+        <section>
+            <h2>Sides & Soups</h2>
+
+            <!-- Soup Item -->
+            <div class="menu-item">
+                <a href="images/creamy-potato-and-herb-soup.jpg" data-lightbox="menu-gallery" data-title="Creamy Potato & Herb Soup - R24.90">
+                    <img src="images/creamy-potato-and-herb-soup.jpg" alt="Creamy Potato & Herb Soup" class="lightbox-trigger" width="250">
+                  </a>
+                <h3>Creamy Potato & Herb Soup</h3>
+                <p>Hot, hearty potato soup with herbs and a smooth finish.</p>
+                <p><strong>Price: R24.90</strong></p>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==============================================
+         FOOTER SECTION
+         ============================================== -->
+    <footer>
+        <p>&copy; 2026 Crispy Hub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js_assets/myjavascripts.js"></script>
+
+</body>
+</html>

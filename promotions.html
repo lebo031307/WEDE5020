@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Hub - Promotions</title>
+    <meta name="description" content="Check out our latest weekly specials, bucket deals, family feasts and limited-time offers at Crispy Hub. Save more on your favourite meals.">
+    <meta name="keywords" content="Crispy Hub specials, food deals, bucket offers, family meal deals, South Africa fast food promotions, cheap meals">
+    <!-- Reference: W3Schools (2026) - HTML Meta Tags & SEO Best Practices -->
+
+    <!-- Reference: jQuery Foundation (2026) - jQuery v3.7.1 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Reference: Fonticons Inc. (2026) - Font Awesome v6.5.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- ✅ Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- ✅ Social Media Icons Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ✅ Your CSS -->
+    <link rel="stylesheet" href="css_assets/style.css">
+
+    <!-- Lightbox for image gallery -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+  <!-- References -->
+<!-- References:
+Agafonkin, V. & Leaflet Contributors. (2026). Leaflet (Version 1.9.4) [Interactive map library]. Available from: https://leafletjs.com/
+Fonticons Inc. (2026). Font Awesome (Version 6.5.0) [Icon toolkit]. Available from: https://fontawesome.com/
+Google. (2026). Poppins Web Font. Available from: https://fonts.google.com/specimen/Poppins
+jQuery Foundation. (2026). jQuery (Version 3.7.1) [JavaScript library]. Available from: https://code.jquery.com/
+Lokesh, D. (2026). Lightbox2 (Version 2.11.4) [Image gallery library]. Available from: https://lokeshdhakar.com/projects/lightbox2/
+W3Schools. (2026). HTML, CSS, JavaScript and SEO Best Practices. Available from: https://www.w3schools.com/
+-->
+</head>
+<body>
+
+    <header>
+        <img src="images/Crispy-hub-logo.png" alt="Crispy Hub Logo">
+        <h1>🔥 Current Specials & Promotions 🔥</h1>
+        <p>Don't miss out on these amazing deals for a limited time only!</p>
+    </header>
+
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="promotions.html" class="active">Promotions</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="location.html">Location</a>
+            <a href="enquiries.html">Enquiries</a>
+    </nav>
+
+    <main>
+        <!-- ✅ VERTICAL LAYOUT -->
+        <div class="container-vertical">
+            <div class="menu-item">
+                
+                <h2>🍗 WEEKEND BUCKET SPECIAL</h2>
+                <a href="images/weekend-bucket.jpg" data-lightbox="promo-gallery" data-title="Weekend Bucket Special - R149.90">
+                    <img src="images/weekend-bucket.jpg" alt="Weekend Bucket Special" class="lightbox-trigger" width="350">
+                  </a>
+                <p><strong>Deal:</strong> 10 Piece Chicken Bucket + 2 Large Chips</p>
+                <p><strong>Normal Price:</strong> R210.00</p>
+                <p><strong>Special Price:</strong> <strong style="color:red;">R149.90</strong></p>
+                <p><strong>Valid:</strong> Every Friday to Sunday only.</p>
+                <button class="add-to-cart"><i class="fa-fa-shopping"></i>Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <a href="images/double-burger-combo.jpg" data-lightbox="promo-gallery" data-title="Double Burger Combo - R79.90">
+                    <img src="images/double-burger-combo.jpg" alt="Double Burger Combo" class="lightbox-trigger" width="350">
+                  </a>
+                <h2>🍔 DOUBLE BURGER COMBO</h2>
+                <p><strong>Deal:</strong> 2 Zinger Burgers + 2 Regular Drinks</p>
+                <p><strong>Normal Price:</strong> R110.00</p>
+                <p><strong>Special Price:</strong> <strong style="color:red;">R79.00</strong></p>
+                <button class="add-to-cart"><i class="fa-fa-shopping"></i>Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <a href="images/full-feast-meal.jpg" data-lightbox="promo-gallery" data-title="Full Feast Meal - R199.90">
+                    <img src="images/full-feast-meal.jpg" alt="Full Feast Meal" class="lightbox-trigger" width="350">
+                  </a>
+                <h2>🥘 FULL FEAST MEAL</h2>
+                <p><strong>Deal:</strong> 6 Piece Chicken, 2 Burgers, Large Chips & 1.5L Drink</p>
+                <p><strong>Normal Price:</strong> R250.00</p>
+                <p><strong>Special Price:</strong> <strong style="color:red;">R199.00</strong></p>
+                <p><strong>Valid:</strong> Available all day, every day until further notice.</p>
+                <button class="add-to-cart"><i class="fa-fa-shopping"></i>Add to Cart</button>
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top:30px; font-style:italic;">Promotions available at participating stores nationwide.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Crispy Hub South Africa. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js_assets/myjavascripts.js"></script>
+
+</body>
+</html>

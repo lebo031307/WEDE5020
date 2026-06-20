@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lebo031307.github.io/WEDE5020/sitemap.xml

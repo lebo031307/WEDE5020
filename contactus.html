@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page Title -->
+    <title>Crispy Hub - Contact Us</title>
+
+    <meta name="description" content="Get in touch with Crispy Hub for enquiries, feedback, complaints or support. Find our contact details and opening hours.">
+    <meta name="keywords" content="Crispy Hub contact, customer service, feedback, enquiries, support, South Africa fast food contact">
+    <!-- Reference: W3Schools (2026) - HTML Meta Tags & SEO Best Practices -->
+
+    <!-- Reference: jQuery Foundation (2026) - jQuery v3.7.1 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Reference: Fonticons Inc. (2026) - Font Awesome v6.5.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- ✅ Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- ✅ Social Media Icons Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/font-awesome.min.css">
+    <!-- ✅ Link to your CSS file -->
+    <link rel="stylesheet" href="css_assets/style.css">
+   <!-- References:
+Agafonkin, V. & Leaflet Contributors. (2026). Leaflet (Version 1.9.4) [Interactive map JavaScript library]. Available from: https://leafletjs.com/
+Fonticons Inc. (2026). Font Awesome (Version 6.5.0) [Icon toolkit]. Available from: https://fontawesome.com/
+Google. (2026). Poppins Web Font. Available from: https://fonts.google.com/specimen/Poppins
+jQuery Foundation. (2026). jQuery (Version 3.7.1) [JavaScript library]. Available from: https://code.jquery.com/
+W3Schools. (2026). HTML, CSS, JavaScript and SEO Best Practices. Available from: https://www.w3schools.com/
+-->
+</head>
+<body>
+
+    <!-- Header section with logo and navigation menu -->
+    <header>
+        <img src="images/Crispy-hub-logo.png" alt="Crispy Hub Logo" width="150">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="promotions.html">Promotions</a>
+            <a href="contactus.html" class="active">Contact</a>
+            <a href="location.html">Location</a>
+            <a href="enquiries.html">Enquiries</a>
+        </nav>
+    </header>
+
+    <!-- Main contact information section -->
+    <main>
+        <div class="container-vertical">
+            <h1>Get In Touch With Crispy Hub</h1>
+
+            <div class="info-box"
+            <h2>Customer Care Contact Details</h2>
+            <p><strong>Telephone Number:</strong> 0860 532 5483 (0860 CRISPY)</p>
+            <p><strong>WhatsApp Line:</strong> 084 515 2222</p>
+            <p><strong>Email Address:</strong> customer.services@crispyhub.co.za</p>
+            <p><strong>Website:</strong> www.crispyhub.co.za</p>
+
+            <h2>Head Office Address</h2>
+            <p>Crispy Hub South Africa</p>
+            <p>Private Bag X99, Sandton, 2146</p>
+            <p>125 Daisy Street, Paulshof, Sandton</p>
+
+            <!-- Send us a message form -->
+        <h2>Send Us a Message</h2>
+        <form id="contact-form" action="#" method="post">
+            <label>Full Name:</label>
+            <input type="text" id="contact-name" required>
+            <span class="form-error" id="name-error"></span>
+
+            <label>Email:</label>
+            <input type="email" id="contact-email" required>
+            <span class="form-error" id="contact-email-error"></span>
+
+            <label>Phone:</label>
+            <input type="tel" id="contact-phone" required>
+            <span class="form-error" id="phone-error"></span>
+
+            <label>Message:</label>
+            <textarea id="contact-message" rows="4" required></textarea>
+            <span class="form-error" id="contact-msg-error"></span>
+
+            <button type="submit">Send Message</button>
+            <div id="contact-toast" class="toast-feedback"></div>
+        </form>
+
+            <!-- Operating hours section -->
+            <h2>Operating Hours</h2>
+            <p><strong>Customer Care Centre:</strong></p>
+            <ul>
+                <li>Monday to Sunday: 07:00 - 21:00</li>
+            </ul>
+
+            <!-- Social media links -->
+            <div class="social-container">
+                <h2>Follow Our Official Channels</h2>
+                <div class="social-icons-grid">
+                    
+                    <a href="https://facebook.com" class="social-icon-link" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" class="icon-svg"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.85z"/></svg>
+                    </a>
+            
+                    <a href="https://instagram.com" class="social-icon-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" class="icon-svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+            
+                    <a href="https://twitter.com" class="social-icon-link" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" class="icon-svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+            
+                    <a href="https://tiktok.com" class="social-icon-link" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24" class="icon-svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.02 1.63 4.16 1.02.11 2.07.04 3.12.06v3.82c-1.33-.02-2.64-.45-3.74-1.23-.1 1.93-.03 3.87-.03 5.8 0 3.63-2.34 7.07-5.91 7.78-3.64.79-7.54-1.33-8.62-4.85-1.21-3.66.72-7.88 4.41-9.05.34-.11.69-.19 1.05-.24v3.91c-1.23.23-2.31 1.15-2.6 2.37-.42 1.62.53 3.42 2.14 3.89 1.61.51 3.51-.37 3.94-2.03.11-.42.14-.85.13-1.28V0z"/></svg>
+                    </a>
+            
+                </div>
+            </div>
+    </main>
+
+    <!-- Footer with copyright -->
+    <footer>
+        <p>&copy; 2026 Crispy Hub South Africa. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js_assets/myjavascripts.js"></script>
+
+</body>
+</html>
